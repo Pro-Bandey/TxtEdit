@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "TxtEdit",
+  "version": "2.5",
+  "description": "A free, highly customizable text and code editor that built for your browser.",
+  "homepage_url": "https://Pro-Bandey.github.io/Projects/?pro=TxtEdit",
+
+  "offline_enabled": true,
+
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "128": "icons/128.png"
+  },
+
+  "action": {
+    "default_title": "TxtEdit",
+    "default_icon": {
+      "16": "icons/toolbar/16.png",
+      "32": "icons/toolbar/32.png",
+      "48": "icons/toolbar/48.png",
+      "64": "icons/toolbar/64.png"
+    }
+  },
+
+  "permissions": ["storage"],
+
+  "optional_permissions": ["downloads"],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
