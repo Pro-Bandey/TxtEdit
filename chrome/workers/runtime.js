@@ -1,7 +1,7 @@
 app.version = function () { return chrome.runtime.getManifest().version };
 app.homepage = function () { return chrome.runtime.getManifest().homepage_url };
 app.homepageUn = function () {
-  return chrome.runtime.url = "https://github.com/Pro-Bandey/TxtEdit//issues/new";
+  return chrome.runtime.url = "https://github.com/Pro-Bandey/TxtEdit/issues/new";
 };
 
 if (!navigator.webdriver) {
